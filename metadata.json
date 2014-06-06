@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "3f495e1f48e39c7e3cfeb50fe1691514",
+    "Modulefile": "4c19317e97dbae8f5b0012bf3424186a",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "649f65f8f1295b060ff490465374d9b1",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.markdown": "bc06aa0bc6ac6a0a3ffda3efc03f20c1"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "artem-jboss_windows",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
