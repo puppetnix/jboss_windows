@@ -12,9 +12,15 @@
 #
 class jboss_windows {
   
-  package { ['java.jdk','groovy']:
+  package { 'java.jdk':
     ensure          => installed,
     provider        => 'chocolatey',
     install_options => '-pre',
+  }
+  package { 'groovy':
+    ensure          => installed,
+    provider        => 'chocolatey',
+    install_options => '-pre',
+    source          => 'Z:\ChokolateyPackages',
   }
 }
