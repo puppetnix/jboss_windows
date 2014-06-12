@@ -20,6 +20,7 @@ class jboss_windows {
   package { 'groovy':
     ensure          => installed,
     provider        => 'chocolatey',
+    require         => Package['java.jdk'],
     install_options => '-pre',
     source          => 'Z:\ChokolateyPackages',
   }
