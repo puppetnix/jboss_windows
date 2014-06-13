@@ -22,6 +22,6 @@ class jboss_windows {
     provider        => 'chocolatey',
     require         => Package['java.jdk'],
     install_options => '-pre',
-    source          => 'Z:\ChokolateyPackages',
+    source          => '\\\\foreman.ct.com\\Public',
   }
 }
